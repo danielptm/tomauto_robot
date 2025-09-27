@@ -16,3 +16,13 @@ https://cps.unileoben.ac.at/how-to-setup-ros2-in-pycharm/
 
 ### Activate environment
 `source venv/bin/activate`
+
+### How to create a package
+Inside of the src/pkg folder run:
+`ros2 pkg create my_py_pkg --build-type ament_python --dependencies rclpy`
+
+### How to build packages
+`colcon build colcon build --packages-select my_py_pkg`
+
+### Source project
+`source ~/.bashrc`
