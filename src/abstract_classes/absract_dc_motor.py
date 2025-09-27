@@ -1,10 +1,17 @@
-import rclpy
 from abc import ABC, abstractmethod
 
+from example_interfaces.msg import String
+from rclpy.node import Node
 
-class AbstractDcMotor(ABC):
 
-    def __init__(self):
+class AbstractDcMotor(ABC, Node):
+
+    def __init__(self, name: str, subscription: str):
+        super().__init__(name)
+        self.subscriber_ = self.create_subscription(String, subscription, self.callback_act, 10)
+
+    @abstractmethod
+    def callback_act(self, msg: String):
         pass
 
     @abstractmethod
