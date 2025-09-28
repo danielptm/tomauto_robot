@@ -3,6 +3,7 @@ import time
 import logging
 import rclpy
 from .absract_dc_motor import AbstractDcMotor
+import sys
 
 
 class MockDcMotors(AbstractDcMotor):
@@ -10,31 +11,32 @@ class MockDcMotors(AbstractDcMotor):
     def __init__(self, name: str):
         super().__init__(name)
         self.logger = logging.getLogger(name + "_logger")
+        root = logging.getLogger()
+        root.setLevel(logging.INFO)
+        handler = logging.StreamHandler(sys.stdout)
+        root.addHandler(handler)
 
     def forward(self):
         while self.thread_running and self.current_action == "forward":
-            self.logger.info("forward")
-            print("forward")
+            self.logger.info(msg="forward")
             time.sleep(1)
 
     def right(self):
-        print("right")
+        self.logger.info(msg="right")
 
     def left(self):
-        print("left")
+        self.logger.info(msg="left")
 
     def backup(self):
         while self.thread_running and self.current_action == "backup":
-            print("backup")
+            self.logger.info(msg="backup")
             time.sleep(1)
 
     def turnaround(self):
-        print("turnaround")
+        self.logger.info(msg="turnaround")
 
     def stop(self):
-        while self.thread_running and self.current_action is None or self.current_action == "stop":
-            print("stop")
-            time.sleep(1)
+        self.logger.info(msg="stop")
 
 def main(args=None):
     rclpy.init(args=args)
