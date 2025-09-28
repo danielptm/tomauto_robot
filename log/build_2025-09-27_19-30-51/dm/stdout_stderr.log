@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/dm/dm.egg-info/PKG-INFO
+writing dependency_links to ../../build/dm/dm.egg-info/dependency_links.txt
+writing entry points to ../../build/dm/dm.egg-info/entry_points.txt
+writing requirements to ../../build/dm/dm.egg-info/requires.txt
+writing top-level names to ../../build/dm/dm.egg-info/top_level.txt
+reading manifest file '../../build/dm/dm.egg-info/SOURCES.txt'
+writing manifest file '../../build/dm/dm.egg-info/SOURCES.txt'
+running build
+running build_py
+copying dm/absract_dc_motor.py -> /home/daniel/projects/tomauto_robot/build/dm/build/lib/dm
+copying dm/mock_dc_motors.py -> /home/daniel/projects/tomauto_robot/build/dm/build/lib/dm
+running install
+running install_lib
+copying /home/daniel/projects/tomauto_robot/build/dm/build/lib/dm/absract_dc_motor.py -> /home/daniel/projects/tomauto_robot/install/dm/lib/python3.12/site-packages/dm
+copying /home/daniel/projects/tomauto_robot/build/dm/build/lib/dm/mock_dc_motors.py -> /home/daniel/projects/tomauto_robot/install/dm/lib/python3.12/site-packages/dm
+byte-compiling /home/daniel/projects/tomauto_robot/install/dm/lib/python3.12/site-packages/dm/absract_dc_motor.py to absract_dc_motor.cpython-312.pyc
+byte-compiling /home/daniel/projects/tomauto_robot/install/dm/lib/python3.12/site-packages/dm/mock_dc_motors.py to mock_dc_motors.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/daniel/projects/tomauto_robot/install/dm/lib/python3.12/site-packages/dm-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/dm/dm.egg-info to /home/daniel/projects/tomauto_robot/install/dm/lib/python3.12/site-packages/dm-0.0.0-py3.12.egg-info
+running install_scripts
+Installing mock_dc_motors script to /home/daniel/projects/tomauto_robot/install/dm/lib/dm
+writing list of installed files to '/home/daniel/projects/tomauto_robot/build/dm/install.log'

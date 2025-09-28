@@ -12,27 +12,27 @@ class MockDcMotors(AbstractDcMotor):
         self.logger = logging.getLogger(name + "_logger")
 
     def forward(self):
-        while self.current_action == "forward":
+        while self.thread_running and self.current_action == "forward":
             self.logger.info("forward")
             print("forward")
             time.sleep(1)
 
     def right(self):
-        self.logger.info("right")
+        print("right")
 
     def left(self):
-        self.logger.info("left")
+        print("left")
 
     def backup(self):
-        while self.current_action == "backup":
-            self.logger.info("backup")
+        while self.thread_running and self.current_action == "backup":
+            print("backup")
             time.sleep(1)
 
     def turnaround(self):
-        self.logger.info("turnaround")
+        print("turnaround")
 
     def stop(self):
-        while self.current_action is None or self.current_action == "stop":
+        while self.thread_running and self.current_action is None or self.current_action == "stop":
             print("stop")
             time.sleep(1)
 
