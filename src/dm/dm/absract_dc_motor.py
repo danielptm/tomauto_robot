@@ -56,10 +56,6 @@ class AbstractDcMotor(ABC, Node):
         pass
 
     @abstractmethod
-    def turnaround(self):
-        pass
-
-    @abstractmethod
     def stop(self):
         pass
 
