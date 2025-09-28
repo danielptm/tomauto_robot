@@ -26,3 +26,9 @@ Inside of the src/pkg folder run:
 
 ### Source project
 `source ~/.bashrc`
+
+## Publish a message to a dm
+1. run colcon build
+2. source bashrc
+3. In 1 terminal `ros2 run dm mock_dc_motors`
+4. In 2nd terminal `ros2 topic pub --once /dc_motor_sub example_interfaces/msg/String "data: 'hello from dpt'"`

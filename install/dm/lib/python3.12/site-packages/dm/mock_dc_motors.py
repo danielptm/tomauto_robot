@@ -14,6 +14,7 @@ class MockDcMotors(AbstractDcMotor):
     def forward(self):
         while self.current_action == "forward":
             self.logger.info("forward")
+            print("forward")
             time.sleep(1)
 
     def right(self):

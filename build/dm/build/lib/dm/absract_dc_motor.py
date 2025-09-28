@@ -12,7 +12,6 @@ class AbstractDcMotor(ABC, Node):
         self.subscriber_ = self.create_subscription(String, "dc_motor_sub", self.callback_act, 10)
 
     def callback_act(self, msg: String):
-        print("message received: ", msg.data)
         self.current_action = msg.data
         if self.current_action == 'forward':
             self.forward()
@@ -22,10 +21,12 @@ class AbstractDcMotor(ABC, Node):
             self.right()
         elif self.current_action  == 'left':
             self.left()
-        if self.current_action  == 'stop':
+        elif self.current_action  == 'stop':
             self.stop()
-        if self.current_action  == 'turnaround':
+        elif self.current_action  == 'turnaround':
             self.turnaround()
+        else:
+            print("message received: ", msg.data)
 
     @abstractmethod
     def forward(self):
