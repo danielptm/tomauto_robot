@@ -1,0 +1,45 @@
+[0.360s] Invoking command in '/home/daniel/projects/tomauto_robot/dc_motors': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel/projects/tomauto_robot/build/dc_motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dc_motors build --build-base /home/daniel/projects/tomauto_robot/build/dc_motors/build install --record /home/daniel/projects/tomauto_robot/build/dc_motors/install.log --single-version-externally-managed install_data
+[0.479s] running egg_info
+[0.479s] creating ../build/dc_motors/dc_motors.egg-info
+[0.486s] writing ../build/dc_motors/dc_motors.egg-info/PKG-INFO
+[0.486s] writing dependency_links to ../build/dc_motors/dc_motors.egg-info/dependency_links.txt
+[0.486s] writing entry points to ../build/dc_motors/dc_motors.egg-info/entry_points.txt
+[0.486s] writing requirements to ../build/dc_motors/dc_motors.egg-info/requires.txt
+[0.486s] writing top-level names to ../build/dc_motors/dc_motors.egg-info/top_level.txt
+[0.486s] writing manifest file '../build/dc_motors/dc_motors.egg-info/SOURCES.txt'
+[0.500s] reading manifest file '../build/dc_motors/dc_motors.egg-info/SOURCES.txt'
+[0.501s] writing manifest file '../build/dc_motors/dc_motors.egg-info/SOURCES.txt'
+[0.501s] running build
+[0.501s] running build_py
+[0.501s] creating /home/daniel/projects/tomauto_robot/build/dc_motors/build
+[0.501s] creating /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib
+[0.501s] creating /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib/dc_motors
+[0.501s] copying dc_motors/__init__.py -> /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib/dc_motors
+[0.501s] copying dc_motors/mock_dc_motors.py -> /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib/dc_motors
+[0.501s] creating /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib/dc_motors/abstract
+[0.501s] copying dc_motors/abstract/__init__.py -> /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib/dc_motors/abstract
+[0.502s] copying dc_motors/abstract/absract_dc_motor.py -> /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib/dc_motors/abstract
+[0.502s] running install
+[0.503s] running install_lib
+[0.511s] creating /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors
+[0.511s] copying /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib/dc_motors/__init__.py -> /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors
+[0.511s] creating /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors/abstract
+[0.511s] copying /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib/dc_motors/abstract/__init__.py -> /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors/abstract
+[0.511s] copying /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib/dc_motors/abstract/absract_dc_motor.py -> /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors/abstract
+[0.511s] copying /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib/dc_motors/mock_dc_motors.py -> /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors
+[0.511s] byte-compiling /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors/__init__.py to __init__.cpython-312.pyc
+[0.511s] byte-compiling /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors/abstract/__init__.py to __init__.cpython-312.pyc
+[0.511s] byte-compiling /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors/abstract/absract_dc_motor.py to absract_dc_motor.cpython-312.pyc
+[0.511s] byte-compiling /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors/mock_dc_motors.py to mock_dc_motors.cpython-312.pyc
+[0.512s] running install_data
+[0.512s] creating /home/daniel/projects/tomauto_robot/install/dc_motors/share/ament_index
+[0.512s] creating /home/daniel/projects/tomauto_robot/install/dc_motors/share/ament_index/resource_index
+[0.512s] creating /home/daniel/projects/tomauto_robot/install/dc_motors/share/ament_index/resource_index/packages
+[0.512s] copying resource/dc_motors -> /home/daniel/projects/tomauto_robot/install/dc_motors/share/ament_index/resource_index/packages
+[0.512s] copying package.xml -> /home/daniel/projects/tomauto_robot/install/dc_motors/share/dc_motors
+[0.512s] running install_egg_info
+[0.520s] Copying ../build/dc_motors/dc_motors.egg-info to /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors-0.0.0-py3.12.egg-info
+[0.520s] running install_scripts
+[0.573s] Installing mock_dc_motors script to /home/daniel/projects/tomauto_robot/install/dc_motors/lib/dc_motors
+[0.573s] writing list of installed files to '/home/daniel/projects/tomauto_robot/build/dc_motors/install.log'
+[0.586s] Invoked command in '/home/daniel/projects/tomauto_robot/dc_motors' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel/projects/tomauto_robot/build/dc_motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dc_motors build --build-base /home/daniel/projects/tomauto_robot/build/dc_motors/build install --record /home/daniel/projects/tomauto_robot/build/dc_motors/install.log --single-version-externally-managed install_data

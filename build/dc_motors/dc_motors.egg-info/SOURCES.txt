@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../build/dc_motors/dc_motors.egg-info/PKG-INFO
+../build/dc_motors/dc_motors.egg-info/SOURCES.txt
+../build/dc_motors/dc_motors.egg-info/dependency_links.txt
+../build/dc_motors/dc_motors.egg-info/entry_points.txt
+../build/dc_motors/dc_motors.egg-info/requires.txt
+../build/dc_motors/dc_motors.egg-info/top_level.txt
+../build/dc_motors/dc_motors.egg-info/zip-safe
+resource/dc_motors
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

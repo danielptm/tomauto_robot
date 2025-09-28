@@ -1,0 +1,2 @@
+[console_scripts]
+mock_dc_motors = dm.mock_dc_motors:main

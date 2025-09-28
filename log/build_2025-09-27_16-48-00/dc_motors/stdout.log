@@ -1,0 +1,43 @@
+running egg_info
+creating ../build/dc_motors/dc_motors.egg-info
+writing ../build/dc_motors/dc_motors.egg-info/PKG-INFO
+writing dependency_links to ../build/dc_motors/dc_motors.egg-info/dependency_links.txt
+writing entry points to ../build/dc_motors/dc_motors.egg-info/entry_points.txt
+writing requirements to ../build/dc_motors/dc_motors.egg-info/requires.txt
+writing top-level names to ../build/dc_motors/dc_motors.egg-info/top_level.txt
+writing manifest file '../build/dc_motors/dc_motors.egg-info/SOURCES.txt'
+reading manifest file '../build/dc_motors/dc_motors.egg-info/SOURCES.txt'
+writing manifest file '../build/dc_motors/dc_motors.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/daniel/projects/tomauto_robot/build/dc_motors/build
+creating /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib
+creating /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib/dc_motors
+copying dc_motors/__init__.py -> /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib/dc_motors
+copying dc_motors/mock_dc_motors.py -> /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib/dc_motors
+creating /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib/dc_motors/abstract
+copying dc_motors/abstract/__init__.py -> /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib/dc_motors/abstract
+copying dc_motors/abstract/absract_dc_motor.py -> /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib/dc_motors/abstract
+running install
+running install_lib
+creating /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors
+copying /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib/dc_motors/__init__.py -> /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors
+creating /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors/abstract
+copying /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib/dc_motors/abstract/__init__.py -> /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors/abstract
+copying /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib/dc_motors/abstract/absract_dc_motor.py -> /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors/abstract
+copying /home/daniel/projects/tomauto_robot/build/dc_motors/build/lib/dc_motors/mock_dc_motors.py -> /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors
+byte-compiling /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors/abstract/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors/abstract/absract_dc_motor.py to absract_dc_motor.cpython-312.pyc
+byte-compiling /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors/mock_dc_motors.py to mock_dc_motors.cpython-312.pyc
+running install_data
+creating /home/daniel/projects/tomauto_robot/install/dc_motors/share/ament_index
+creating /home/daniel/projects/tomauto_robot/install/dc_motors/share/ament_index/resource_index
+creating /home/daniel/projects/tomauto_robot/install/dc_motors/share/ament_index/resource_index/packages
+copying resource/dc_motors -> /home/daniel/projects/tomauto_robot/install/dc_motors/share/ament_index/resource_index/packages
+copying package.xml -> /home/daniel/projects/tomauto_robot/install/dc_motors/share/dc_motors
+running install_egg_info
+Copying ../build/dc_motors/dc_motors.egg-info to /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors-0.0.0-py3.12.egg-info
+running install_scripts
+Installing mock_dc_motors script to /home/daniel/projects/tomauto_robot/install/dc_motors/lib/dc_motors
+writing list of installed files to '/home/daniel/projects/tomauto_robot/build/dc_motors/install.log'

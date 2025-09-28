@@ -22,7 +22,7 @@ Inside of the src/pkg folder run:
 `ros2 pkg create my_py_pkg --build-type ament_python --dependencies rclpy`
 
 ### How to build packages
-`colcon build colcon build --packages-select my_py_pkg`
+`colcon build --packages-select my_py_pkg`
 
 ### Source project
 `source ~/.bashrc`

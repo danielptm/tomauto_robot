@@ -1,0 +1,19 @@
+[0.354s] Invoking command in '/home/daniel/projects/tomauto_robot/dc_motors': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel/projects/tomauto_robot/build/dc_motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dc_motors build --build-base /home/daniel/projects/tomauto_robot/build/dc_motors/build install --record /home/daniel/projects/tomauto_robot/build/dc_motors/install.log --single-version-externally-managed install_data
+[0.472s] running egg_info
+[0.478s] writing ../build/dc_motors/dc_motors.egg-info/PKG-INFO
+[0.478s] writing dependency_links to ../build/dc_motors/dc_motors.egg-info/dependency_links.txt
+[0.478s] writing entry points to ../build/dc_motors/dc_motors.egg-info/entry_points.txt
+[0.478s] writing requirements to ../build/dc_motors/dc_motors.egg-info/requires.txt
+[0.478s] writing top-level names to ../build/dc_motors/dc_motors.egg-info/top_level.txt
+[0.485s] reading manifest file '../build/dc_motors/dc_motors.egg-info/SOURCES.txt'
+[0.485s] writing manifest file '../build/dc_motors/dc_motors.egg-info/SOURCES.txt'
+[0.485s] running build
+[0.485s] running install
+[0.488s] running install_data
+[0.488s] running install_egg_info
+[0.503s] removing '/home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors-0.0.0-py3.12.egg-info' (and everything under it)
+[0.503s] Copying ../build/dc_motors/dc_motors.egg-info to /home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages/dc_motors-0.0.0-py3.12.egg-info
+[0.503s] running install_scripts
+[0.555s] Installing mock_dc_motors script to /home/daniel/projects/tomauto_robot/install/dc_motors/lib/dc_motors
+[0.555s] writing list of installed files to '/home/daniel/projects/tomauto_robot/build/dc_motors/install.log'
+[0.567s] Invoked command in '/home/daniel/projects/tomauto_robot/dc_motors' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel/projects/tomauto_robot/build/dc_motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel/projects/tomauto_robot/install/dc_motors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dc_motors build --build-base /home/daniel/projects/tomauto_robot/build/dc_motors/build install --record /home/daniel/projects/tomauto_robot/build/dc_motors/install.log --single-version-externally-managed install_data
