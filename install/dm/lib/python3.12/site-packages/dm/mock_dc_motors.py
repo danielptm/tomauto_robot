@@ -2,7 +2,7 @@ import time
 
 import logging
 import rclpy
-from dc_motors.absract_dc_motor import AbstractDcMotor
+from .absract_dc_motor import AbstractDcMotor
 
 
 class MockDcMotors(AbstractDcMotor):

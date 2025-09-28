@@ -12,6 +12,7 @@ class AbstractDcMotor(ABC, Node):
         self.subscriber_ = self.create_subscription(String, "dc_motor_sub", self.callback_act, 10)
 
     def callback_act(self, msg: String):
+        print("message received: ", msg.data)
         self.current_action = msg.data
         if self.current_action == 'forward':
             self.forward()
