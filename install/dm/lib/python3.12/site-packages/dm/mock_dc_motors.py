@@ -22,10 +22,14 @@ class MockDcMotors(AbstractDcMotor):
             time.sleep(1)
 
     def right(self):
-        self.logger.info(msg="right")
+        while self.thread_running and self.current_action == "right":
+            self.logger.info(msg="right")
+            time.sleep(1)
 
     def left(self):
-        self.logger.info(msg="left")
+        while self.thread_running and self.current_action == "left":
+            self.logger.info(msg="left")
+            time.sleep(1)
 
     def backup(self):
         while self.thread_running and self.current_action == "backup":
