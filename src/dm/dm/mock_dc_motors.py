@@ -18,29 +18,29 @@ class MockDcMotors(AbstractDcMotor):
 
     def forward(self):
         while self.thread_running and self.current_action == "forward":
-            self.logger.info(msg="forward")
+            self.logger.info(msg="dcm:forward")
             time.sleep(1)
 
     def right(self):
         while self.thread_running and self.current_action == "right":
-            self.logger.info(msg="right")
+            self.logger.info(msg="dcm:right")
             time.sleep(1)
 
     def left(self):
         while self.thread_running and self.current_action == "left":
-            self.logger.info(msg="left")
+            self.logger.info(msg="dcm:left")
             time.sleep(1)
 
     def backup(self):
         while self.thread_running and self.current_action == "backup":
-            self.logger.info(msg="backup")
+            self.logger.info(msg="dcm:backup")
             time.sleep(1)
 
     def turnaround(self):
-        self.logger.info(msg="turnaround")
+        self.logger.info(msg="dcm:turnaround")
 
     def stop(self):
-        self.logger.info(msg="stop")
+        self.logger.info(msg="dcm:stop")
 
 def main(args=None):
     rclpy.init(args=args)
