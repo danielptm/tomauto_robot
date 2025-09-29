@@ -33,8 +33,6 @@ class AbstractDcMotor(ABC, Node):
             self.left()
         elif self.current_action  == 'stop':
             self.stop()
-        elif self.current_action  == 'turnaround':
-            self.turnaround()
         else:
             print("message received: ", self.current_action)
 

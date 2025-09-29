@@ -7,7 +7,6 @@ import sys
 # from adafruit_motorkit import MotorKit
 
 
-
 class MockDcMotors(AbstractDcMotor):
 
     def __init__(self, name: str):
