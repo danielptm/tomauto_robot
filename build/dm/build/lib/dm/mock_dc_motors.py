@@ -4,7 +4,6 @@ import logging
 import rclpy
 from .absract_dc_motor import AbstractDcMotor
 import sys
-# from adafruit_motorkit import MotorKit
 
 
 class MockDcMotors(AbstractDcMotor):
@@ -18,8 +17,9 @@ class MockDcMotors(AbstractDcMotor):
         root.addHandler(handler)
         self.env = "test" # TODO: Fix this
         self.kit = None
-        # if "test" in self.env:
-        #     self.kit = MotorKit()
+        if "test" not in self.env:
+            from adafruit_motorkit import MotorKit
+            self.kit = MotorKit()
 
     def forward(self):
         self.logger.info(msg="dcm: start drive forward")
