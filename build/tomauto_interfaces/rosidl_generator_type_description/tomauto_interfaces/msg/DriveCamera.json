@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "tomauto_interfaces/msg/DriveCamera",
+      "fields": [
+        {
+          "name": "detected_object",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "tomauto_interfaces/msg/DriveCamera",
+      "hash_string": "RIHS01_367e4bb4fd2a0116a1f2e8698c336188d19f462f5e0cbcf74deb1cc92bd07612"
+    }
+  ]
+}

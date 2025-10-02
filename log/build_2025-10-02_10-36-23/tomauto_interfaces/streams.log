@@ -1,0 +1,40 @@
+[0.488s] Invoking command in '/home/daniel/projects/tomauto_robot/build/tomauto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/projects/tomauto_robot/install/dm:/home/daniel/projects/tomauto_robot/src/install/dm:/home/daniel/projects/ros/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/projects/tomauto_robot/src/tomauto_interfaces -DCMAKE_INSTALL_PREFIX=/home/daniel/projects/tomauto_robot/install/tomauto_interfaces
+[0.499s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.639s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.643s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.698s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.734s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.026s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.122s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.267s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.269s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.637s] -- Found Python3: /home/daniel/projects/tomauto_robot/.venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.706s] -- Configuring done (1.2s)
+[1.755s] -- Generating done (0.0s)
+[1.771s] -- Build files have been written to: /home/daniel/projects/tomauto_robot/build/tomauto_interfaces
+[1.787s] Invoked command in '/home/daniel/projects/tomauto_robot/build/tomauto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/projects/tomauto_robot/install/dm:/home/daniel/projects/tomauto_robot/src/install/dm:/home/daniel/projects/ros/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/projects/tomauto_robot/src/tomauto_interfaces -DCMAKE_INSTALL_PREFIX=/home/daniel/projects/tomauto_robot/install/tomauto_interfaces
+[1.789s] Invoking command in '/home/daniel/projects/tomauto_robot/build/tomauto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/projects/tomauto_robot/install/dm:/home/daniel/projects/tomauto_robot/src/install/dm:/home/daniel/projects/ros/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/projects/tomauto_robot/build/tomauto_interfaces -- -j8 -l8
+[1.860s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.886s] [  2%] Built target ament_cmake_python_copy_tomauto_interfaces
+[1.929s] Traceback (most recent call last):
+[1.929s]   File "/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 21, in <module>
+[1.929s]     from rosidl_generator_type_description import generate_type_hash
+[1.929s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 24, in <module>
+[1.929s]     from rosidl_parser.parser import parse_idl_file
+[1.930s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 20, in <module>
+[1.930s]     from lark import Lark
+[1.930s] ModuleNotFoundError: No module named 'lark'
+[1.935s] gmake[2]: *** [CMakeFiles/tomauto_interfaces__rosidl_generator_type_description.dir/build.make:75: rosidl_generator_type_description/tomauto_interfaces/msg/DriveCamera.json] Error 1
+[1.935s] gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/tomauto_interfaces__rosidl_generator_type_description.dir/all] Error 2
+[1.935s] gmake[1]: *** Waiting for unfinished jobs....
+[2.140s] running egg_info
+[2.155s] creating tomauto_interfaces.egg-info
+[2.155s] writing tomauto_interfaces.egg-info/PKG-INFO
+[2.155s] writing dependency_links to tomauto_interfaces.egg-info/dependency_links.txt
+[2.155s] writing top-level names to tomauto_interfaces.egg-info/top_level.txt
+[2.155s] writing manifest file 'tomauto_interfaces.egg-info/SOURCES.txt'
+[2.185s] reading manifest file 'tomauto_interfaces.egg-info/SOURCES.txt'
+[2.185s] writing manifest file 'tomauto_interfaces.egg-info/SOURCES.txt'
+[2.213s] [  2%] Built target ament_cmake_python_build_tomauto_interfaces_egg
+[2.214s] gmake: *** [Makefile:146: all] Error 2
+[2.217s] Invoked command in '/home/daniel/projects/tomauto_robot/build/tomauto_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/projects/tomauto_robot/install/dm:/home/daniel/projects/tomauto_robot/src/install/dm:/home/daniel/projects/ros/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/projects/tomauto_robot/build/tomauto_interfaces -- -j8 -l8

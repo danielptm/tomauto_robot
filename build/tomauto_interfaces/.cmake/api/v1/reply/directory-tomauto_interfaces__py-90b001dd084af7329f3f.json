@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tomauto_interfaces__py",
+		"source" : "/home/daniel/projects/tomauto_robot/build/tomauto_interfaces/tomauto_interfaces__py"
+	}
+}

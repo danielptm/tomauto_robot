@@ -1,0 +1,34 @@
+[0.427s] Invoking command in '/home/daniel/projects/tomauto_robot/build/tomauto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/projects/tomauto_robot/install/dm:/home/daniel/projects/tomauto_robot/src/install/dm:/home/daniel/projects/ros/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/projects/tomauto_robot/src/tomauto_interfaces -DCMAKE_INSTALL_PREFIX=/home/daniel/projects/tomauto_robot/install/tomauto_interfaces
+[0.552s] -- The C compiler identification is GNU 13.3.0
+[0.655s] -- The CXX compiler identification is GNU 13.3.0
+[0.678s] -- Detecting C compiler ABI info
+[0.808s] -- Detecting C compiler ABI info - done
+[0.816s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.817s] -- Detecting C compile features
+[0.817s] -- Detecting C compile features - done
+[0.829s] -- Detecting CXX compiler ABI info
+[0.945s] -- Detecting CXX compiler ABI info - done
+[0.959s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.959s] -- Detecting CXX compile features
+[0.960s] -- Detecting CXX compile features - done
+[0.969s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.140s] -- Found Python3: /home/daniel/projects/tomauto_robot/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.303s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.339s] Traceback (most recent call last):
+[1.339s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[1.339s]     from catkin_pkg.package import parse_package_string
+[1.339s] ModuleNotFoundError: No module named 'catkin_pkg'
+[1.344s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.345s]   execute_process(/home/daniel/projects/tomauto_robot/.venv/bin/python3
+[1.345s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.345s]   /home/daniel/projects/tomauto_robot/src/tomauto_interfaces/package.xml
+[1.345s]   /home/daniel/projects/tomauto_robot/build/tomauto_interfaces/ament_cmake_core/package.cmake)
+[1.345s]   returned error code 1
+[1.345s] Call Stack (most recent call first):
+[1.345s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.345s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.345s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[1.345s] 
+[1.345s] [0m
+[1.346s] -- Configuring incomplete, errors occurred!
+[1.354s] Invoked command in '/home/daniel/projects/tomauto_robot/build/tomauto_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/projects/tomauto_robot/install/dm:/home/daniel/projects/tomauto_robot/src/install/dm:/home/daniel/projects/ros/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/projects/tomauto_robot/src/tomauto_interfaces -DCMAKE_INSTALL_PREFIX=/home/daniel/projects/tomauto_robot/install/tomauto_interfaces

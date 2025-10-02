@@ -1,0 +1,24 @@
+[0.460s] Invoking command in '/home/daniel/projects/tomauto_robot/build/tomauto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/projects/tomauto_robot/install/dm:/home/daniel/projects/tomauto_robot/src/install/dm:/home/daniel/projects/ros/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/projects/tomauto_robot/src/tomauto_interfaces -DCMAKE_INSTALL_PREFIX=/home/daniel/projects/tomauto_robot/install/tomauto_interfaces
+[0.473s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.719s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.724s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.773s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.816s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.103s] Traceback (most recent call last):
+[1.103s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[1.103s]     from catkin_pkg.package import parse_package_string
+[1.103s] ModuleNotFoundError: No module named 'catkin_pkg'
+[1.109s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.109s]   execute_process(/home/daniel/projects/tomauto_robot/.venv/bin/python3
+[1.109s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.109s]   /home/daniel/projects/tomauto_robot/src/tomauto_interfaces/package.xml
+[1.109s]   /home/daniel/projects/tomauto_robot/build/tomauto_interfaces/ament_cmake_core/package.cmake)
+[1.109s]   returned error code 1
+[1.109s] Call Stack (most recent call first):
+[1.109s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.109s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)
+[1.109s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[1.109s] 
+[1.109s] [0m
+[1.110s] -- Configuring incomplete, errors occurred!
+[1.119s] Invoked command in '/home/daniel/projects/tomauto_robot/build/tomauto_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/projects/tomauto_robot/install/dm:/home/daniel/projects/tomauto_robot/src/install/dm:/home/daniel/projects/ros/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/projects/tomauto_robot/src/tomauto_interfaces -DCMAKE_INSTALL_PREFIX=/home/daniel/projects/tomauto_robot/install/tomauto_interfaces

@@ -1,0 +1,2 @@
+string detected_object
+

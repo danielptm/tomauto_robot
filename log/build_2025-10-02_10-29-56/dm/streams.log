@@ -1,0 +1,20 @@
+[0.972s] Invoking command in '/home/daniel/projects/tomauto_robot/src/dm': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel/projects/tomauto_robot/build/dm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel/projects/tomauto_robot/install/dm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dm build --build-base /home/daniel/projects/tomauto_robot/build/dm/build install --record /home/daniel/projects/tomauto_robot/build/dm/install.log --single-version-externally-managed install_data
+[1.223s] running egg_info
+[1.237s] writing ../../build/dm/dm.egg-info/PKG-INFO
+[1.238s] writing dependency_links to ../../build/dm/dm.egg-info/dependency_links.txt
+[1.238s] writing entry points to ../../build/dm/dm.egg-info/entry_points.txt
+[1.238s] writing requirements to ../../build/dm/dm.egg-info/requires.txt
+[1.238s] writing top-level names to ../../build/dm/dm.egg-info/top_level.txt
+[1.268s] reading manifest file '../../build/dm/dm.egg-info/SOURCES.txt'
+[1.268s] writing manifest file '../../build/dm/dm.egg-info/SOURCES.txt'
+[1.269s] running build
+[1.269s] running build_py
+[1.269s] running install
+[1.274s] running install_lib
+[1.290s] running install_data
+[1.290s] running install_egg_info
+[1.306s] removing '/home/daniel/projects/tomauto_robot/install/dm/lib/python3.12/site-packages/dm-0.0.0-py3.12.egg-info' (and everything under it)
+[1.306s] Copying ../../build/dm/dm.egg-info to /home/daniel/projects/tomauto_robot/install/dm/lib/python3.12/site-packages/dm-0.0.0-py3.12.egg-info
+[1.307s] running install_scripts
+[1.414s] Installing mock_dc_motors script to /home/daniel/projects/tomauto_robot/install/dm/lib/dm
+[1.414s] writing list of installed files to '/home/daniel/projects/tomauto_robot/build/dm/install.log'

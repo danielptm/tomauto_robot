@@ -1,0 +1,7 @@
+{
+  "package_name": "tomauto_interfaces",
+  "output_dir": "/home/daniel/projects/tomauto_robot/build/tomauto_interfaces/rosidl_generator_type_description/tomauto_interfaces",
+  "idl_tuples": [
+    "/home/daniel/projects/tomauto_robot/build/tomauto_interfaces/rosidl_adapter/tomauto_interfaces:msg/DriveCamera.idl"
+  ]
+}
