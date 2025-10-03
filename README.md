@@ -5,6 +5,7 @@ https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html
 ### Pycharm ros setup
 1. Settings > project structure > add content root
 2. Add directory: `/opt/ros/<distro>/lib/<python_version>/site-packages`
+3. After colcon build/source, mark `./install/<package>/lib/<python.v>/site-packages` as sources root
 3. You should get ros code completion in the python project now
 
 Use this as a guide:

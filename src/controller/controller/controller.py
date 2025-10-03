@@ -15,7 +15,7 @@ class Controller(Node):
         print("setup complete")
 
 
-    def direct_drive_instruction(self, msg: String):
+    def direct_drive_instruction(self, msg: DriveCamera):
         self.publisher.publish(msg)
 
 
