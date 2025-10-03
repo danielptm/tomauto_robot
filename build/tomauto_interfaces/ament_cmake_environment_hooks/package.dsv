@@ -1,4 +1,0 @@
-source;share/tomauto_interfaces/local_setup.bash
-source;share/tomauto_interfaces/local_setup.dsv
-source;share/tomauto_interfaces/local_setup.sh
-source;share/tomauto_interfaces/local_setup.zsh

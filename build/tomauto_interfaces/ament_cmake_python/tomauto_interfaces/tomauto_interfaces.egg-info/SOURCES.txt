@@ -1,8 +1,0 @@
-setup.py
-tomauto_interfaces/__init__.py
-tomauto_interfaces.egg-info/PKG-INFO
-tomauto_interfaces.egg-info/SOURCES.txt
-tomauto_interfaces.egg-info/dependency_links.txt
-tomauto_interfaces.egg-info/top_level.txt
-tomauto_interfaces/msg/__init__.py
-tomauto_interfaces/msg/_drive_camera.py

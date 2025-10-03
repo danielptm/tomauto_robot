@@ -1,2 +1,0 @@
-string detected_object
-
