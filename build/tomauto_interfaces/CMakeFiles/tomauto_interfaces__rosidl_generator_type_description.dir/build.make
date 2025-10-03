@@ -72,7 +72,7 @@ rosidl_generator_type_description/tomauto_interfaces/msg/DriveCamera.json: /opt/
 rosidl_generator_type_description/tomauto_interfaces/msg/DriveCamera.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/tomauto_interfaces/msg/DriveCamera.json: rosidl_adapter/tomauto_interfaces/msg/DriveCamera.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/daniel/projects/tomauto_robot/build/tomauto_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
-	/home/daniel/projects/tomauto_robot/.venv/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/daniel/projects/tomauto_robot/build/tomauto_interfaces/rosidl_generator_type_description__arguments.json
+	/home/daniel/.pyenv/shims/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/daniel/projects/tomauto_robot/build/tomauto_interfaces/rosidl_generator_type_description__arguments.json
 
 tomauto_interfaces__rosidl_generator_type_description: CMakeFiles/tomauto_interfaces__rosidl_generator_type_description
 tomauto_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/tomauto_interfaces/msg/DriveCamera.json

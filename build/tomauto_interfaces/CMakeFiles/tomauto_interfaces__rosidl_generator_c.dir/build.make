@@ -90,7 +90,7 @@ rosidl_generator_c/tomauto_interfaces/msg/drive_camera.h: /opt/ros/jazzy/share/r
 rosidl_generator_c/tomauto_interfaces/msg/drive_camera.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/tomauto_interfaces/msg/drive_camera.h: rosidl_adapter/tomauto_interfaces/msg/DriveCamera.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/daniel/projects/tomauto_robot/build/tomauto_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/home/daniel/projects/tomauto_robot/.venv/bin/python3 /opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/daniel/projects/tomauto_robot/build/tomauto_interfaces/rosidl_generator_c__arguments.json
+	/home/daniel/.pyenv/shims/python3 /opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/daniel/projects/tomauto_robot/build/tomauto_interfaces/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/tomauto_interfaces/msg/detail/drive_camera__functions.h: rosidl_generator_c/tomauto_interfaces/msg/drive_camera.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/tomauto_interfaces/msg/detail/drive_camera__functions.h

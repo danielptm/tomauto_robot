@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DROS_PACKAGE_NAME=\"tomauto_interfaces\" -Dtomauto_interfaces__rosidl_generator_py_EXPORTS
 
-C_INCLUDES = -I/home/daniel/projects/tomauto_robot/build/tomauto_interfaces/rosidl_generator_c -I/home/daniel/projects/tomauto_robot/build/tomauto_interfaces/rosidl_generator_py -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /home/daniel/projects/tomauto_robot/.venv/lib/python3.12/site-packages/numpy/_core/include -isystem /usr/include/python3.12
+C_INCLUDES = -I/home/daniel/projects/tomauto_robot/build/tomauto_interfaces/rosidl_generator_c -I/home/daniel/projects/tomauto_robot/build/tomauto_interfaces/rosidl_generator_py -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /home/daniel/.pyenv/versions/3.11.13/lib/python3.11/site-packages/numpy/_core/include -isystem /home/daniel/.pyenv/versions/3.11.13/include/python3.11
 
 C_FLAGS = -fPIC -Wall -Wextra
 

@@ -79,7 +79,7 @@ rosidl_typesupport_introspection_c/tomauto_interfaces/msg/detail/drive_camera__r
 rosidl_typesupport_introspection_c/tomauto_interfaces/msg/detail/drive_camera__rosidl_typesupport_introspection_c.h: /opt/ros/jazzy/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/tomauto_interfaces/msg/detail/drive_camera__rosidl_typesupport_introspection_c.h: rosidl_adapter/tomauto_interfaces/msg/DriveCamera.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/daniel/projects/tomauto_robot/build/tomauto_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
-	/home/daniel/projects/tomauto_robot/.venv/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/daniel/projects/tomauto_robot/build/tomauto_interfaces/rosidl_typesupport_introspection_c__arguments.json
+	/home/daniel/.pyenv/shims/python3 /opt/ros/jazzy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/daniel/projects/tomauto_robot/build/tomauto_interfaces/rosidl_typesupport_introspection_c__arguments.json
 
 rosidl_typesupport_introspection_c/tomauto_interfaces/msg/detail/drive_camera__type_support.c: rosidl_typesupport_introspection_c/tomauto_interfaces/msg/detail/drive_camera__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/tomauto_interfaces/msg/detail/drive_camera__type_support.c

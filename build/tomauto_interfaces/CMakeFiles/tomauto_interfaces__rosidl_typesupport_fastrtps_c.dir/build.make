@@ -79,7 +79,7 @@ rosidl_typesupport_fastrtps_c/tomauto_interfaces/msg/detail/drive_camera__rosidl
 rosidl_typesupport_fastrtps_c/tomauto_interfaces/msg/detail/drive_camera__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em
 rosidl_typesupport_fastrtps_c/tomauto_interfaces/msg/detail/drive_camera__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/tomauto_interfaces/msg/DriveCamera.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/daniel/projects/tomauto_robot/build/tomauto_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support for eProsima Fast-RTPS"
-	/home/daniel/projects/tomauto_robot/.venv/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/daniel/projects/tomauto_robot/build/tomauto_interfaces/rosidl_typesupport_fastrtps_c__arguments.json
+	/home/daniel/.pyenv/shims/python3 /opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/daniel/projects/tomauto_robot/build/tomauto_interfaces/rosidl_typesupport_fastrtps_c__arguments.json
 
 rosidl_typesupport_fastrtps_c/tomauto_interfaces/msg/detail/drive_camera__type_support_c.cpp: rosidl_typesupport_fastrtps_c/tomauto_interfaces/msg/detail/drive_camera__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/tomauto_interfaces/msg/detail/drive_camera__type_support_c.cpp

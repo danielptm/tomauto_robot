@@ -77,7 +77,7 @@ rosidl_typesupport_c/tomauto_interfaces/msg/drive_camera__type_support.cpp: /opt
 rosidl_typesupport_c/tomauto_interfaces/msg/drive_camera__type_support.cpp: /opt/ros/jazzy/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em
 rosidl_typesupport_c/tomauto_interfaces/msg/drive_camera__type_support.cpp: rosidl_adapter/tomauto_interfaces/msg/DriveCamera.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/daniel/projects/tomauto_robot/build/tomauto_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support dispatch for ROS interfaces"
-	/home/daniel/projects/tomauto_robot/.venv/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/daniel/projects/tomauto_robot/build/tomauto_interfaces/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
+	/home/daniel/.pyenv/shims/python3 /opt/ros/jazzy/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/daniel/projects/tomauto_robot/build/tomauto_interfaces/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
 
 CMakeFiles/tomauto_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tomauto_interfaces/msg/drive_camera__type_support.cpp.o: CMakeFiles/tomauto_interfaces__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/tomauto_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tomauto_interfaces/msg/drive_camera__type_support.cpp.o: rosidl_typesupport_c/tomauto_interfaces/msg/drive_camera__type_support.cpp

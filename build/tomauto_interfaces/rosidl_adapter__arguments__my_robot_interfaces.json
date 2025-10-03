@@ -1,6 +1,0 @@
-{
-  "package_name": "my_robot_interfaces",
-  "non_idl_tuples": [
-    "/home/daniel/projects/tomauto_robot/src/tomauto_interfaces:msg/DriveCamera.msg"
-  ]
-}

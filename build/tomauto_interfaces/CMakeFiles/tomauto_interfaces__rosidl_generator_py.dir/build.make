@@ -92,7 +92,7 @@ tomauto_interfaces__rosidl_generator_py_EXTERNAL_OBJECTS =
 
 libtomauto_interfaces__rosidl_generator_py.so: CMakeFiles/tomauto_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tomauto_interfaces/msg/_drive_camera_s.c.o
 libtomauto_interfaces__rosidl_generator_py.so: CMakeFiles/tomauto_interfaces__rosidl_generator_py.dir/build.make
-libtomauto_interfaces__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.12.so
+libtomauto_interfaces__rosidl_generator_py.so: /home/daniel/.pyenv/versions/3.11.13/lib/libpython3.11.so
 libtomauto_interfaces__rosidl_generator_py.so: libtomauto_interfaces__rosidl_typesupport_c.so
 libtomauto_interfaces__rosidl_generator_py.so: libtomauto_interfaces__rosidl_generator_c.so
 libtomauto_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so

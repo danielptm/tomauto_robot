@@ -4,9 +4,6 @@ source;share/tomauto_interfaces/hook/cmake_prefix_path.sh
 source;share/tomauto_interfaces/hook/ld_library_path_lib.ps1
 source;share/tomauto_interfaces/hook/ld_library_path_lib.dsv
 source;share/tomauto_interfaces/hook/ld_library_path_lib.sh
-source;share/tomauto_interfaces/hook/pythonpath.ps1
-source;share/tomauto_interfaces/hook/pythonpath.dsv
-source;share/tomauto_interfaces/hook/pythonpath.sh
 source;share/tomauto_interfaces/local_setup.bash
 source;share/tomauto_interfaces/local_setup.dsv
 source;share/tomauto_interfaces/local_setup.ps1

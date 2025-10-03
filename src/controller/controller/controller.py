@@ -2,7 +2,7 @@ import rclpy
 from example_interfaces.msg import String
 from rclpy.node import Node
 
-from tomauto_interfaces import DriveCamera
+from tomauto_interfaces.msg import DriveCamera
 
 
 class Controller(Node):

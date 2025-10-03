@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_tomauto_interfaces_egg.dir/compiler_
 include CMakeFiles/ament_cmake_python_build_tomauto_interfaces_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_tomauto_interfaces_egg:
-	cd /home/daniel/projects/tomauto_robot/build/tomauto_interfaces/ament_cmake_python/tomauto_interfaces && /home/daniel/projects/tomauto_robot/.venv/bin/python3 setup.py egg_info
+	cd /home/daniel/projects/tomauto_robot/build/tomauto_interfaces/ament_cmake_python/tomauto_interfaces && /home/daniel/.pyenv/shims/python3 setup.py egg_info
 
 ament_cmake_python_build_tomauto_interfaces_egg: CMakeFiles/ament_cmake_python_build_tomauto_interfaces_egg
 ament_cmake_python_build_tomauto_interfaces_egg: CMakeFiles/ament_cmake_python_build_tomauto_interfaces_egg.dir/build.make

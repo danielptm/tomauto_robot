@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "tomauto_interfaces/msg/detail/drive_camera__struct.h"
-#include "tomauto_interfaces/msg/detail/drive_camera__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "tomauto_interfaces/msg/detail/drive_camera__type_support.h"
+#include "tomauto_interfaces/msg/detail/drive_camera__struct.h"
 #include "tomauto_interfaces/msg/detail/drive_camera__functions.h"
 
 #ifdef __cplusplus
