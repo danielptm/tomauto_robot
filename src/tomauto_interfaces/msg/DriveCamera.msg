@@ -1,2 +1,1 @@
 string detected_object
-

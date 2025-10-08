@@ -4,7 +4,6 @@ import logging
 import rclpy
 from .absract_dc_motor import AbstractDcMotor
 import sys
-from adafruit_motorkit import MotorKit
 
 
 class MockDcMotors(AbstractDcMotor):
@@ -19,6 +18,7 @@ class MockDcMotors(AbstractDcMotor):
         self.env = "test" # TODO: Fix this
         self.kit = None
         if "test" not in self.env:
+            from adafruit_motorkit import MotorKit
             self.kit = MotorKit()
 
     def forward(self):
