@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from example_interfaces.msg import String
+from tomauto_interfaces.msg import DriveCommand
 from rclpy.node import Node
 import threading
 
@@ -12,11 +12,11 @@ class AbstractDcMotor(ABC, Node):
         self.current_action = "stop"
         self.thread_running = False
         self.thread = None
-        self.subscriber_ = self.create_subscription(String, "dc_motor_sub", self.callback_act, 10)
+        self.subscriber_ = self.create_subscription(DriveCommand, "dc_motor_sub", self.callback_act, 10)
 
-    def callback_act(self, msg: String):
+    def callback_act(self, msg: DriveCommand):
         self.thread_running = False
-        self.current_action = msg.data
+        self.current_action = msg.direction
         self.thread = threading.Thread(target=self.thread_function)
         self.thread_running = True
         self.thread.start()

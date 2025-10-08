@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="dm" exec="mock_dc_motors"/>
+    <node pkg="controller" exec="controller"/>
+</launch>

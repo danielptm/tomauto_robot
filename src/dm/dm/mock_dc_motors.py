@@ -22,6 +22,7 @@ class MockDcMotors(AbstractDcMotor):
             self.kit = MotorKit()
 
     def forward(self):
+        print("forward called")
         self.logger.info(msg="dcm: start drive forward")
         while self.thread_running and self.current_action == "forward":
             if "test" in self.env:
