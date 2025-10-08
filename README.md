@@ -1,3 +1,5 @@
+### Python version
+`3.12.3`
 ### Ros setup
 If not working, use this
 https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html
