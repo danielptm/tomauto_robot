@@ -22,8 +22,6 @@ class MockDcMotors(AbstractDcMotor):
             self.kit = MotorKit()
 
     def forward(self):
-        print("forward called")
-        self.logger.info(msg="dcm: start drive forward")
         while self.thread_running and self.current_action == "forward":
             if "test" in self.env:
                 self.logger.info(msg="dcm:forward")
@@ -35,7 +33,6 @@ class MockDcMotors(AbstractDcMotor):
                 self.kit.motor4.throttle = -1
 
     def right(self):
-        self.logger.info(msg="dcm: start turn right")
         while self.thread_running and self.current_action == "right":
             if "test" in self.env:
                 self.logger.info(msg="dcm:right")
@@ -47,7 +44,6 @@ class MockDcMotors(AbstractDcMotor):
                 self.kit.motor2.throttle = -0.65
 
     def left(self):
-        self.logger.info(msg="dcm: start turn left")
         while self.thread_running and self.current_action == "left":
             if "test" in self.env:
                 self.logger.info(msg="dcm:left")
@@ -59,7 +55,6 @@ class MockDcMotors(AbstractDcMotor):
                 self.kit.motor4.throttle = 0.65
 
     def backup(self):
-        self.logger.info(msg="dcm: start backup")
         while self.thread_running and self.current_action == "backup":
             if "test" in self.env:
                 self.logger.info(msg="dcm:backup")

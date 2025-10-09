@@ -49,5 +49,5 @@ Inside of the src/pkg folder run:
 `tail -f /home/daniel/.ros/log/2025-10-08-13-35-32-823244-ubuntu-laptop-61127/launch.log`
 
 ### publish message for forward_arrow
-os2 topic pub --once /drive_camera_sub tomauto_interfaces/msg/DriveCamera "detected_object: 'forward_arrow'"
+ros2 topic pub --once /drive_camera_sub tomauto_interfaces/msg/DriveCamera "detected_object: 'forward_arrow'"
 

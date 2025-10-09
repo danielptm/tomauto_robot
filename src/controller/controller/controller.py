@@ -1,11 +1,8 @@
 from tomauto_interfaces.msg import DriveCamera
 from tomauto_interfaces.msg import DriveCommand
-from example_interfaces.msg import String
 
 import rclpy
 from rclpy.node import Node
-
-
 
 class Controller(Node):
 
@@ -16,7 +13,6 @@ class Controller(Node):
 
 
     def direct_drive_instruction(self, msg: DriveCamera):
-        print("direct drive instruction called")
         drive_command = DriveCommand()
         if msg.detected_object == "forward_arrow":
             drive_command.direction = "forward"
