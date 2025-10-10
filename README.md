@@ -51,3 +51,6 @@ Inside of the src/pkg folder run:
 ### publish message for forward_arrow
 ros2 topic pub --once /drive_camera_sub tomauto_interfaces/msg/DriveCamera "detected_object: 'forward_arrow'"
 
+
+### List active ros nodes
+`ros2 node list`
