@@ -18,6 +18,7 @@ https://medium.com/analytics-vidhya/how-to-create-a-python-library-7d5aea80cc3f
 
 ### launch testing
 https://docs.ros.org/en/ros2_packages/rolling/api/launch_testing/
+https://github.com/ros2/examples/blob/rolling/launch_testing/launch_testing_examples/launch_testing_examples/set_param_launch_test.py
 
 ### How to create a package
 Inside of the src/pkg folder run:
