@@ -13,10 +13,11 @@ https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html
 Use this as a guide for pycharm source issues:
 https://cps.unileoben.ac.at/how-to-setup-ros2-in-pycharm/
 
-### Create venv (not recommended)
-`python3 -m venv venv`
-Activate environment
-`source venv/bin/activate`
+### Good article describing how to create a library
+https://medium.com/analytics-vidhya/how-to-create-a-python-library-7d5aea80cc3f
+
+### launch testing
+https://docs.ros.org/en/ros2_packages/rolling/api/launch_testing/
 
 ### How to create a package
 Inside of the src/pkg folder run:
