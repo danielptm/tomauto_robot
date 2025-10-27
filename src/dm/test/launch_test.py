@@ -1,19 +1,15 @@
-
-import os
 import unittest
+from time import sleep
+
+import pytest
 
 import launch
-import launch.actions
-import launch_ros.actions
-import launch_testing.actions
-import launch_testing.markers
-import pytest
-from rcl_interfaces.srv import SetParameters
+import launch_ros
+import launch_testing
 import rclpy
-from rclpy.node import Node
+
 
 @pytest.mark.launch_test
-@launch_testing.markers.keep_alive
 def generate_test_description():
     return launch.LaunchDescription([
         launch_ros.actions.Node(
@@ -27,16 +23,14 @@ def generate_test_description():
     ])
 
 
-@pytest.mark.linter
 class TestFixture(unittest.TestCase):
 
-    @classmethod
     def setUp(self):
         rclpy.init()
 
-    @classmethod
     def tearDown(self):
         rclpy.shutdown()
 
-    def test_sayhi(self):
-        print("zzzzhi!!!!!")
+    def test_sayhi2(self):
+        sleep(600000)
+        self.assertEqual(True, True)
