@@ -8,6 +8,8 @@ import launch
 import launch_ros
 import launch_testing
 import rclpy
+from tomauto_interfaces.msg import DriveCommand
+from rclpy.node import Node
 
 
 @pytest.mark.launch_test
@@ -35,15 +37,21 @@ class TestFixture(unittest.TestCase):
     def setUp(self):
         rclpy.init()
 
+
     def tearDown(self):
         rclpy.shutdown()
 
-    def test_sayhi2(self):
-        ros2_command = ["ros2", "topic", "pub", "--once", "/drive_camera_sub", "tomauto_interfaces/msg/DriveCamera", "detected_object: 'forward_arrow'"]
-        subprocess.run(ros2_command, shell=False)
 
-    def test_logs_spawning(self, proc_output):
-        """Check whether logging properly"""
+    def test_logs_spawning(self,proc_output):
+        print("HI")
+        node = Node("pub")
+        dc_motor_publisher_ = node.create_publisher(DriveCommand, "dc_motor_sub", 10)
+        #
+        drive_command = DriveCommand()
+        drive_command.direction = "forward"
+        dc_motor_publisher_.publish(drive_command)
         proc_output.assertWaitFor(
-            '[mock_dc_motors-1] dcm:forward',
-            timeout=10, stream='stdout')
+            'dcm:forward',
+            timeout=30, stream='stdout')
+
+
