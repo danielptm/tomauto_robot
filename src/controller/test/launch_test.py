@@ -42,8 +42,7 @@ class TestFixture(unittest.TestCase):
         rclpy.shutdown()
 
 
-    def test_logs_spawning(self,proc_output):
-        print("HI")
+    def test_forward_stop(self,proc_output):
         node = Node("pub")
         dc_motor_publisher_ = node.create_publisher(DriveCommand, "dc_motor_sub", 10)
         #
@@ -51,7 +50,52 @@ class TestFixture(unittest.TestCase):
         drive_command.direction = "forward"
         dc_motor_publisher_.publish(drive_command)
         proc_output.assertWaitFor(
-            'dcm:forward',
-            timeout=30, stream='stdout')
+            """dcm:forward""",
+            timeout=5, stream='stdout')
+        sleep(1)
+        drive_command = DriveCommand()
+        drive_command.direction = "stop"
+        dc_motor_publisher_.publish(drive_command)
+        proc_output.assertWaitFor(
+         """dcm:stop""",
+            timeout=5, stream='stdout')
+
+
+    def test_stop_right(self,proc_output):
+        node = Node("pub")
+        dc_motor_publisher_ = node.create_publisher(DriveCommand, "dc_motor_sub", 10)
+        #
+        drive_command = DriveCommand()
+        drive_command.direction = "stop"
+        dc_motor_publisher_.publish(drive_command)
+        proc_output.assertWaitFor(
+            """dcm:stop""",
+            timeout=5, stream='stdout')
+        sleep(1)
+        drive_command = DriveCommand()
+        drive_command.direction = "right"
+        dc_motor_publisher_.publish(drive_command)
+        proc_output.assertWaitFor(
+         """dcm:right""",
+            timeout=5, stream='stdout')
+
+
+    def test_stop_left(self,proc_output):
+        node = Node("pub")
+        dc_motor_publisher_ = node.create_publisher(DriveCommand, "dc_motor_sub", 10)
+        #
+        drive_command = DriveCommand()
+        drive_command.direction = "stop"
+        dc_motor_publisher_.publish(drive_command)
+        proc_output.assertWaitFor(
+            """dcm:stop""",
+            timeout=5, stream='stdout')
+        sleep(1)
+        drive_command = DriveCommand()
+        drive_command.direction = "left"
+        dc_motor_publisher_.publish(drive_command)
+        proc_output.assertWaitFor(
+         """dcm:left""",
+            timeout=5, stream='stdout')
 
 
